@@ -1,0 +1,24 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif ;
+}
+
+.dg-bg {
+    background-color: #1E2D3B;
+    height: 100vh;
+
+}
+
+.dg-header {
+    background-color:#2D3A46 ;
+}
+
+img {
+    width: 38px;
+    height: 38px;
+}

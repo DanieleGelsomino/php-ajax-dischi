@@ -11,6 +11,10 @@ include ('data_dischi.php');
 include ('template.php');
 ?>
 <body>
-    
+    <div class="dg-bg">
+<?php
+include('header.php');
+?>
+    </div>
 </body>
 </html>
