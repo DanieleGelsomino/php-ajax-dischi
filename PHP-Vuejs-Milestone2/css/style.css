@@ -1,0 +1,101 @@
+/* ****** GENERAL ****** */
+body {
+    font-family: 'Montserrat', sans-serif ;
+    overflow-x: hidden;
+}
+
+.dg-bg {
+    background-color: #1E2D3B;
+    height: 100vh;
+    
+
+}
+
+/* ****** / GENERAL ****** */
+
+/* ****** HEADER ****** */
+
+.dg-header {
+    background-color:#2D3A46 ;
+}
+
+.dg-logo {
+    width: 38px;
+    height: 38px;
+}
+
+ /* ****** / HEADER ****** */
+
+ /* ****** MAIN ****** */
+
+.dg-select {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+ .dg-text-select {
+     font-size: 0.8rem;
+     font-weight: 600;
+     text-transform: uppercase;
+     color: #fff;
+     margin-right: 5px;
+
+ }
+
+ .dg-options {
+     height: 20px;
+     border-radius: 5px;
+     font-size: 0.8rem;
+ }
+
+.dg-container-albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    padding-top: 50px;
+    gap: 15px;
+}
+
+ .dg-card-album {
+    background-color:#2D3A46 ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    padding-bottom: 20px;
+    height: 100%;
+
+
+ }
+
+.dg-poster {
+    width: 120px;
+    height: 120px;
+}
+
+.dg-title {
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 80%;
+    margin-top:15px;
+}
+
+.dg-author {
+    color:#767B74 ;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.dg-year {
+    color:#767B74 ;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+
+ /* ****** / MAIN ****** */
