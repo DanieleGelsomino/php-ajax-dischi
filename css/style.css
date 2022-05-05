@@ -1,11 +1,7 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
+/* ****** GENERAL ****** */
 body {
     font-family: 'Montserrat', sans-serif ;
+    overflow-x: hidden;
 }
 
 .dg-bg {
@@ -14,11 +10,64 @@ body {
 
 }
 
+/* ****** / GENERAL ****** */
+
+/* ****** HEADER ****** */
+
 .dg-header {
     background-color:#2D3A46 ;
 }
 
-img {
+.dg-logo {
     width: 38px;
     height: 38px;
 }
+
+ /* ****** / HEADER ****** */
+
+ /* ****** MAIN ****** */
+
+.dg-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 200px;
+}
+
+ .dg-albums {
+    background-color:#2D3A46 ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: calc(100% / 5);
+
+ }
+
+.dg-poster {
+    width: 120px;
+    height: 120px;
+}
+
+.dg-title {
+    color: #fff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    width: 70%;
+}
+
+.dg-author {
+    color:#767B74 ;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.dg-year {
+    color:#767B74 ;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+ /* ****** / MAIN ****** */
