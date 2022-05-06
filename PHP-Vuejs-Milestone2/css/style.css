@@ -6,7 +6,7 @@ body {
 
 .dg-bg {
     background-color: #1E2D3B;
-    height: 100vh;
+    min-height: 100vh;
     
 
 }

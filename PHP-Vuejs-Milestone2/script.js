@@ -8,8 +8,11 @@ const app = new Vue({
     };
   },
   mounted() {
+    console.log("test");
     axios
-      .get("http://localhost/php-ajax-dischi/PHP-Vuejs-Milestone2/api_disc.php")
+      .get(
+        "http://localhost:8888/php-ajax-dischi/PHP-Vuejs-Milestone2/api_disc.php"
+      )
       .then((response) => {
         this.dataDischi = response.data;
         console.log(this.dataDischi);
